@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
-    background-color: grey;
+    background-color: #292929;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
@@ -21,7 +21,6 @@ p
 
 nav, main, footer
 {
-    background-color: grey;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -71,9 +70,14 @@ nav>section
     }
 }
 
+nav
+{
+    border-bottom: 5px #e11d21 solid;
+}
+
 nav>section, nav
 {
-    background-color:mediumaquamarine;
+    background-color:#3B3B3B;
 }
 
 nav>section>ul
@@ -99,17 +103,24 @@ nav>section>ul>li
 nav>section>ul>li>a
 {
     text-decoration: none;
-    color: black;
+    color: lightgrey;
     display: block;
     padding: 5px;
-    background-color: aquamarine;
 }
 
-nav>section>ul>li>a:hover
+@media screen and (min-width: 600px)
 {
-    display: block;
-    padding: 5px;
-    background-color: aqua;
+    nav > section > ul > li > a:hover, nav .active {
+        border-top: 3px lightgray solid;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    nav>section>ul>li>a:hover, nav .active
+    {
+        border-left: 3px lightgray solid;
+    }
 }
 
 /*
@@ -118,6 +129,13 @@ MAIN
 
  */
 
+
+
+main>section
+{
+    width: calc(100vw - 20px);
+    padding: 10px;
+}
 
 main>section, main
 {
@@ -145,7 +163,7 @@ footer
 
 footer>section, footer
 {
-    background-color: grey;
+    background-color: #292929;
 }
 
 footer>section>ul
@@ -158,11 +176,11 @@ footer>section>ul
 footer>section>ul>li
 {
     text-decoration: none;
-    color: black;
+    color: white;
     display: block;
 }
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 1220px)
 {
     footer>section
     {
@@ -172,7 +190,6 @@ footer>section>ul>li
     footer>section>ul
     {
         width: calc(100%/3 - 10px);
-        padding: 5px;
         float: left;
     }
 }
@@ -182,7 +199,6 @@ footer>section>ul>li
     footer>section>ul
     {
         width: 100%;
-        padding: 5px;
         float: none;
     }
 }
@@ -192,7 +208,6 @@ footer>section>ul>li
     footer>section>ul
     {
         width: 393px;
-        padding: 0;
         float: left;
     }
 }
