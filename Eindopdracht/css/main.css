@@ -51,6 +51,29 @@ NAV
 
  */
 
+nav>section
+{
+    min-height: 100px;
+    background-image: url("../img/deadmau5-logo.png");
+    background-size: 250px 90px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+@media screen and (max-width: 600px)
+{
+    nav>section
+    {
+        padding-top: 100px;
+        background-position: center top;
+        background-size: 250px 90px;
+    }
+    nav>section>ul
+    {
+
+    }
+}
+
 nav>section, nav
 {
     background-color:mediumaquamarine;
