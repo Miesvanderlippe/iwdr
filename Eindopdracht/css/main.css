@@ -228,6 +228,28 @@ main>section>#biocard>ul li:nth-child(2n+1)
     }
 }
 
+@media all and (orientation:landscape) and (max-width: 800px) {
+
+    main>section>#biocard>ul
+    {
+        width: calc(50% - 10px);
+        float:left;
+        display:block;
+        margin:0;
+    }
+    main>section>#biocard>img,
+    main>section>#biocard>small,
+    main>section>#biocard>h2,
+    main>section>#biocard>ul
+    {
+        width: calc(50% - 10px);
+        height:auto;
+        display: block;
+        float:left;
+        margin-left:10px;
+    }
+}
+
 @media screen and (max-width: 1200px) and (min-width: 800px)
 {
     main>section
