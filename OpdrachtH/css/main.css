@@ -3,11 +3,20 @@ body{
     text-align: justify;
 }
 
-nav, p, h1, h2, ul, .container{
-    width: 600px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+@media screen and (min-width: 1000px) {
+    section
+    {
+        width: 480px;
+        padding: 10px;
+        float: left;
+    }
+
+    nav, body, h1, h2, ul, .container{
+        width: 1000px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 ul
@@ -70,4 +79,9 @@ body>ul li:hover
 body>ul li:first-child
 {
     border: none;
+}
+
+.clear
+{
+    clear:both;
 }
