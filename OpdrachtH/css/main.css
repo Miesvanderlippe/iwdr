@@ -10,8 +10,13 @@ nav, p, h1, h2, ul, .container{
     margin-right: auto;
 }
 
-nav ul{
+ul
+{
     list-style-type: none;
+}
+
+nav > ul
+{
     margin: 0;
     margin-top: 4px;
     padding: 0;
@@ -25,7 +30,7 @@ nav ul li{
     line-height: 22px;
 }
 
-nav ul li a{
+nav > ul li a{
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -34,10 +39,35 @@ nav ul li a{
     background-color: aquamarine;
 }
 
-nav ul li a:hover{
+nav > ul li a:hover{
     background-color: aqua;
 }
 
 nav ul li a.active{
     background-color: grey;
+}
+
+body>ul
+{
+    list-style: decimal-leading-zero inside;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+body>ul li
+{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-top: grey 1px solid;
+    padding: 3px;
+}
+
+body>ul li:hover
+{
+    background-color: darkgrey;
+}
+
+body>ul li:first-child
+{
+    border: none;
 }
