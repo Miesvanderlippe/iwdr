@@ -53,6 +53,7 @@ NAV
 
 nav>section
 {
+    width: calc(100vw - 20px);
     min-height: 100px;
     background-image: url("../img/deadmau5-logo.png");
     background-size: 250px 90px;
@@ -67,10 +68,6 @@ nav>section
         padding-top: 100px;
         background-position: center top;
         background-size: 250px 90px;
-    }
-    nav>section>ul
-    {
-
     }
 }
 
