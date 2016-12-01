@@ -296,6 +296,13 @@ main>section>#lineup>ul>li
     margin-top: 10px;
 }
 
+main>section>#lineup>ul>li>h3
+{
+    font-size: larger;
+    line-height: 20px;
+    margin: 0;
+}
+
 main>section>#lineup>ul>li:first-child
 {
     margin-top: 0;
