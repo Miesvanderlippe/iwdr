@@ -279,6 +279,29 @@ main>section>#locatie.third>ul>li
     }
 }
 
+main>section>#lineup>ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+main>section>#lineup>ul>li
+{
+    color: white;
+    display: block;
+    padding: 10px;
+    background-color: #292929;
+    margin-top: 10px;
+}
+
+main>section>#lineup>ul>li:first-child
+{
+    margin-top: 0;
+}
+
+
 @media screen and (max-width: 800px)
 {
     main>section
