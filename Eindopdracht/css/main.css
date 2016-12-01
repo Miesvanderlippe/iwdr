@@ -308,6 +308,31 @@ main>section>#lineup>ul>li:first-child
     margin-top: 0;
 }
 
+main>section>#datum>section>p
+{
+    margin-top: 5px;
+    padding: 0;
+
+}
+
+main>section>#datum>section>h3
+{
+    margin-top: 10px;
+}
+
+main>section>#datum>section
+{
+    color: white;
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #292929;
+}
+
+main>section>#datum>section:first-child
+{
+    margin-top: 0;
+}
 
 @media screen and (max-width: 800px)
 {
