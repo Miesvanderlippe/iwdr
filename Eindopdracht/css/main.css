@@ -7,6 +7,12 @@ body
     text-align: justify;
     font-size: 1rem;
     -webkit-text-size-adjust: 100%;
+    color: white;
+}
+
+h1, h2, h3
+{
+    color: #E6D877
 }
 
 a
@@ -87,12 +93,12 @@ nav>section
 
 nav
 {
-    border-bottom: 5px #e11d21 solid;
+    border-bottom: 5px #E6D877 solid;
 }
 
 nav>section, nav
 {
-    background-color:#3B3B3B;
+    background-color:#2a2a2a;
 }
 
 nav>section>ul
@@ -151,15 +157,22 @@ MAIN
 
  */
 
+main
+{
+    background-image: url("../img/background-tile.png");
+    background-color: #3c3c3c;
+    background-size: 600px 600px;
+}
+
 main>section
 {
     width: calc(100vw - 20px);
     padding: 10px;
 }
 
-main>section, main
+main>section
 {
-    background-color: white;
+    background-color: #191919;
 }
 
 main>section>#aboutdeadmau5
@@ -292,7 +305,7 @@ main>section>#lineup>ul>li
     color: white;
     display: block;
     padding: 10px;
-    background-color: #292929;
+    background-color: #333333;
     margin-top: 10px;
 }
 
@@ -326,7 +339,7 @@ main>section>#datum>section
     width: calc(100% - 10px);
     padding: 5px;
     margin-top: 10px;
-    background-color: #292929;
+    background-color: #333333;
 }
 
 main>section>#datum>section:first-child
@@ -401,12 +414,13 @@ FOOTER
 
 footer
 {
+    border-top: 5px #E6D877 solid;
     padding-top: 10px;
 }
 
 footer>section, footer
 {
-    background-color: #292929;
+    background-color: #2a2a2a;
 }
 
 footer>section>ul
