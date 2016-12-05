@@ -224,7 +224,6 @@ main>section>#biocard>ul li:nth-child(2n+1)
     {
         width: calc((100%/3) - 10px);
         float: left;
-        min-height: 300px;
     }
 
     .third:nth-child(3n+2)
@@ -236,6 +235,40 @@ main>section>#biocard>ul li:nth-child(2n+1)
     .third:nth-child(3n+4)
     {
         clear:left;
+    }
+
+    .half
+    {
+        width: calc((100%/2) - 10px);
+        float: left;
+    }
+
+    .half:nth-child(2n+1)
+    {
+        margin-right: 10px;
+    }
+
+    .half:nth-child(2n+0)
+    {
+        margin-left: 10px;
+    }
+
+    .half:nth-child(2n+3)
+    {
+        clear:left;
+    }
+
+    .half>div>iframe
+    {
+        border: none;
+        width: 100%;
+        height:100%;
+    }
+
+    .half>div
+    {
+        width:100%;
+        padding-bottom: 56%;
     }
 }
 
