@@ -449,6 +449,49 @@ main>section>#datum>section:first-child
     overflow:hidden;
 }
 
+main>section>div.gallery>figure
+{
+    padding: 0;
+    margin: 0;
+    width: calc(100% - 5px);
+}
+
+main>section>div.gallery>figure>img
+{
+    width: 100%;
+}
+
+main>section>div.gallery>figure>figcaption
+{
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+@media screen and (max-width: 800px)
+{
+
+}
+
+@media screen and (min-width: 800px)
+{
+    main>section>div.gallery>figure:nth-child(2n + 1)
+    {
+        margin-right: 5px;
+    }
+
+    main>section>div.gallery>figure:nth-child(2n + 2)
+    {
+        margin-left: 5px;
+    }
+
+    main>section>div.gallery>figure
+    {
+        width: calc(50% - 5px);
+        float: left;
+    }
+}
+
 /*
 
 FOOTER
