@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="hsleiden.miesvanderlippe.nl">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/iwdr/" local="$PROJECT_DIR$" web="/iwdr/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
