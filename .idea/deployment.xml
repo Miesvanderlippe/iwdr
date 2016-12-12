@@ -5,7 +5,7 @@
       <paths name="hsleiden.miesvanderlippe.nl">
         <serverdata>
           <mappings>
-            <mapping deploy="/iwdr/" local="$PROJECT_DIR$" web="/iwdr/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
