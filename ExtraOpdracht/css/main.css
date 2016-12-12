@@ -35,15 +35,23 @@ label
 input
 {
     border-radius: 5px;
-    border: 1px grey solid;
+    border: 2px grey solid;
     padding: 3px;
-    width: calc(100% - 40px);
+    width: calc(100% - 44px);
     margin-left: 14px;
     line-height: 20px;
 }
 
+input[type=radio],input[type=checkbox]
+{
+    border: 1px solid black;
+    display: inline-block;
+    width: auto;
+}
+
 input[type=submit]
 {
+    background-color: white;
     float: right;
     padding: 10px;
     margin-top: 20px;
